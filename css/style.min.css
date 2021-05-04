@@ -1514,6 +1514,62 @@ footer {
           transform: scale(1.2);
 }
 
+.image-slider {
+  padding: 20px 0 50px 0;
+}
+
+.image-slider__image {
+  text-align: center;
+}
+
+.image-slider__image img {
+  max-width: 100%;
+}
+
+/* Стрелки */
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+  color: black;
+  font-size: 80px;
+}
+
+/* Пагинация */
+
+.image-slider .swiper-pagination {
+  bottom: 30px;
+}
+
+/* Буллеты */
+
+.image-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: black;
+}
+
+/* Фракция */
+
+.image-slider .swiper-pagination-fraction {
+  font-size: 20px;
+  color: black;
+}
+
+/* Прогрессбар */
+
+.image-slider .swiper-pagination-progressbar-fill {
+  background-color: #000000;
+}
+
+/* Скролл */
+
+.image-slider .swiper-scrollbar-drag {
+  cursor: pointer;
+  background-color: #000000;
+}
+
 .page {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
